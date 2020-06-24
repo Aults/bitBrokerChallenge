@@ -136,7 +136,10 @@ export default function App() {
             activeTintColor: '#ff5e62',
             style: styles.container,
             borderTopWidth: 0,
-
+            indicatorStyle: {
+              backgroundColor: 'red',
+              height: 3
+            },
             inactiveTintColor: 'gray',
           }}
         >
